@@ -20,3 +20,10 @@ Copy any of the codes to Arduino IDE. Connect your Arduino to computer.
 
 Select the board by Tools -> Boards
 Select the port to which your Arduino is connected by Tools -> Ports
+
+# Repository Structure
+Following are the details of the structure of this repository
+
+"Source" contains the source code of all the tutorials
+"Slides" contains slides introducting the basics features of FreeRTOS
+
