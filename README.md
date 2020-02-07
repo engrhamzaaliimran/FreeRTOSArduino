@@ -25,5 +25,6 @@ Select the port to which your Arduino is connected by Tools -> Ports
 Following are the details of the structure of this repository
 
 "Source" contains the source code of all the tutorials
+
 "Slides" contains slides introducting the basics features of FreeRTOS
 
