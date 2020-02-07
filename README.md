@@ -12,9 +12,11 @@ Navigate to Sketch -> Include Library -> manage Libraries
 Type in RTOS and Install the FreeRTOS library by Richard Barry
 
 Here is a screenshot of the Library Manager 
+
 ![FreeRTOS_lib](image/FreeRTOS_lib.png)
 
 # Compiling and Uploading Program
 Copy any of the codes to Arduino IDE. Connect your Arduino to computer. 
+
 Select the board by Tools -> Boards
 Select the port to which your Arduino is connected by Tools -> Ports
