@@ -12,4 +12,4 @@ Navigate to Sketch -> Include Library -> manage Libraries
 Type in RTOS and Install the FreeRTOS library by Richard Barry
 
 Here is a screenshot of the Library Manager 
-![FreeRTOS_lib](image/FreeRTOS_lib.jpg)
+![FreeRTOS_lib](image/FreeRTOS_lib.png)
