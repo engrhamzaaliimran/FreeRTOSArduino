@@ -42,7 +42,7 @@ void setup() {
     Task1
     ,  "Blink"   // A name just for humans
     ,  128  // Stack size
-    ,  NULL
+    ,  NULL //the parameters to be passed's pointer
     ,  2  // priority
     ,  &task1handle );//this is task Handler
 
@@ -50,7 +50,7 @@ void setup() {
     Task2
     ,   "AnalogRead"
     ,  128 // This stack size can be checked & adjusted by reading Highwater
-    ,  NULL
+    ,  NULL //the parameters to be passed's pointer
     ,  1  // priority
     ,  &task2handle );//this is task Handler
 
@@ -59,5 +59,5 @@ void setup() {
 
 void loop()
 {
-  // Empty. Things are done in Tasks.
+  // Empty. Things are done in Tasks., This portion is just to stay in phase with Arduinos Programming structure 
 }
