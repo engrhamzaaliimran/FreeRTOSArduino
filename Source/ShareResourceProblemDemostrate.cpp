@@ -7,7 +7,7 @@ void Task1(void *pvParameters)  // This is a task.
   (void) pvParameters;
     Serial.begin(9600);
 
-  char TaskMsg1[] = "potatoes";
+  char TaskMsg1[] = "Hamza";
   /*
      Basically I'm intentionally going to write potatoes into
      shared resource character by character with some delay following is the
@@ -24,7 +24,6 @@ void Task1(void *pvParameters)  // This is a task.
       mySharedResource[i] = TaskMsg1[i];
       vTaskDelay(50/portTICK_PERIOD_MS );
     }
-    // initialize digital pin 13 as an output.
     mySharedResource[i] = 0;
     Serial.print("T1 - > ");
     Serial.println(mySharedResource);
@@ -35,7 +34,7 @@ void Task2(void *pvParameters)  // This is a task.
 {
   (void) pvParameters;
   Serial.begin(9600);
-  char TaskMsg2[] = "tomatoes";
+  char TaskMsg2[] = "AliImran";
  while (1)
   {
   int i = 0;
@@ -44,7 +43,6 @@ void Task2(void *pvParameters)  // This is a task.
       mySharedResource[i] = TaskMsg2[i];
       vTaskDelay(50/portTICK_PERIOD_MS );
     }
-    // initialize digital pin 13 as an output.
     mySharedResource[i] = 0;
     Serial.print("T2 - > ");
     Serial.println(mySharedResource);
@@ -69,7 +67,7 @@ void setup() {
   xTaskCreate(
     Task2
     ,   "task2"
-    ,  128 // This stack size can be checked & adjusted by reading Highwater
+    ,  128 //  stack size 
     ,  NULL
     ,  1  // priority
     ,  &task2handle );//this is task Handler
